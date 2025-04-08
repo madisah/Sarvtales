@@ -1,0 +1,57 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #f4efe9;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #d4a373;
+}
+
+header h1 {
+    color: #8b4513;
+}
+
+header p {
+    color: #555;
+}
+
+nav {
+    background: #d4a373;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #8b4513;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
